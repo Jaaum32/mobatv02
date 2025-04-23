@@ -15,6 +15,15 @@ Aplicativo Flutter que demonstra a implementação de uma lista com itens expans
 - Detalhes do produto com descrição e preço
 - Botão de ação para cada produto
 
+## Exemplo de Uso
+![Exemplo de item expandido](screenshots/exemplo.png)
+
+Para usar o aplicativo:
+1. Inicie o aplicativo
+2. Toque em qualquer item da lista para expandir/recolher
+3. Visualize os detalhes do produto
+4. Use o botão "Comprar" para interagir com o item
+
 ## Estrutura do Projeto
 ```
 lib/
@@ -30,9 +39,4 @@ lib/
 - Material Design 3
 - Animações implícitas (AnimatedContainer, AnimatedCrossFade)
 - Gerenciamento de estado com StatefulWidget
-
-## Como Usar
-1. Inicie o aplicativo
-2. Toque em qualquer item da lista para expandir/recolher
-3. Visualize os detalhes do produto
-4. Use o botão "Comprar" para interagir com o item
+- Gerenciamento adequado de memória com dispose()
