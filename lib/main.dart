@@ -78,19 +78,19 @@ class ExpandableProductItem extends StatefulWidget {
 }
 
 class _ExpandableProductItemState extends State<ExpandableProductItem> {
-  // ✅ 1. Variável booleana _expanded para controlar o estado
+  // 1. Variável booleana _expanded para controlar o estado
   bool _expanded = false;
 
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      // ✅ 2. GestureDetector que alterna o estado com setState
+      // 2. GestureDetector que alterna o estado com setState
       onTap: () => setState(() => _expanded = !_expanded),
       child: ClipRRect(
-        // ✅ 4. ClipRRect envolve o AnimatedContainer para animar os cantos
+        // 4. ClipRRect envolve o AnimatedContainer para animar os cantos
         borderRadius: BorderRadius.circular(20),
         child: AnimatedContainer(
-          // ✅ 3. AnimatedContainer para animar mudanças de tamanho, cor, padding
+          // 3. AnimatedContainer para animar mudanças de tamanho, cor, padding
           duration: const Duration(milliseconds: 500),
           curve: Curves.easeInOut,
           margin: const EdgeInsets.symmetric(vertical: 8),
@@ -113,7 +113,7 @@ class _ExpandableProductItemState extends State<ExpandableProductItem> {
               // Título visível sempre
               Text(widget.title, style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
               const SizedBox(height: 8),
-              // ✅ 5. Expansão da lista com mais informações quando _expanded = true
+              // 5. Expansão da lista com mais informações quando _expanded = true
               AnimatedCrossFade(
                 firstChild: const SizedBox.shrink(),
                 secondChild: Column(
