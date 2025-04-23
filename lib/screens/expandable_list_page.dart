@@ -10,17 +10,17 @@ class ExpandableListPage extends StatelessWidget {
     {
       'title': 'Notebook Gamer',
       'description': 'Alto desempenho com placa de vídeo dedicada.',
-      'price': 'R\$ 4.999,00'
+      'price': 'R\$ 4.999,00',
     },
     {
       'title': 'Smartphone Premium',
       'description': 'Tela AMOLED, câmera de 108MP e 5G.',
-      'price': 'R\$ 2.899,00'
+      'price': 'R\$ 2.899,00',
     },
     {
       'title': 'Fone de Ouvido Bluetooth',
       'description': 'Cancelamento de ruído ativo e 40h de bateria.',
-      'price': 'R\$ 399,00'
+      'price': 'R\$ 399,00',
     },
   ];
 
