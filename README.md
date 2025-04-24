@@ -3,6 +3,9 @@
 ## Objetivo
 Aplicativo Flutter que demonstra a implementação de uma lista com itens expansíveis usando animações suaves e feedback visual.
 
+## Demonstração
+![Demonstração da Lista Expansível](screenshots/demo.gif)
+
 ## Instalação
 1. Clone o repositório
 2. Execute `flutter pub get` para instalar as dependências
@@ -16,8 +19,10 @@ Aplicativo Flutter que demonstra a implementação de uma lista com itens expans
 - Botão de ação para cada produto
 
 ## Exemplo de Uso
-![Exemplo de item recolhido](screenshots/captura_de_tela_recolhido.png)
-![Exemplo de item expandido](screenshots/captura_de_tela_expandido.png)
+<div style="display: flex; justify-content: space-between;">
+  <img src="screenshots/captura_de_tela_recolhido.png" alt="Exemplo de item recolhido" width="45%">
+  <img src="screenshots/captura_de_tela_expandido.png" alt="Exemplo de item expandido" width="45%">
+</div>
 
 Para usar o aplicativo:
 1. Inicie o aplicativo
