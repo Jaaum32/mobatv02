@@ -16,8 +16,8 @@ Aplicativo Flutter que demonstra a implementação de uma lista com itens expans
 - Botão de ação para cada produto
 
 ## Exemplo de Uso
-![Exemplo de item recolhido](screenshots/Captura_de_tela 1.png)
-![Exemplo de item expandido](screenshots/Captura_de_tela 2.png)
+![Exemplo de item recolhido](screenshots/captura_de_tela_recolhido.png)
+![Exemplo de item expandido](screenshots/captura_de_tela_expandido.png)
 
 Para usar o aplicativo:
 1. Inicie o aplicativo
