@@ -4,7 +4,9 @@
 Aplicativo Flutter que demonstra a implementação de uma lista com itens expansíveis usando animações suaves e feedback visual.
 
 ## Demonstração
-![Demonstração da Lista Expansível](screenshots/demo.gif)
+<div style="display: flex; justify-content: center;">
+  <img src="screenshots/demo.gif" alt="Demonstração da Lista Expansível" width="50%">
+</div>
 
 ## Instalação
 1. Clone o repositório
