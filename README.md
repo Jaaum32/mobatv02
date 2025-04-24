@@ -5,7 +5,7 @@ Aplicativo Flutter que demonstra a implementação de uma lista com itens expans
 
 ## Demonstração
 <div style="display: flex; justify-content: center;">
-  <img src="screenshots/demo.gif" alt="Demonstração da Lista Expansível" width="50%">
+  <img src="screenshots/demo.gif" alt="Demonstração da Lista Expansível" width="30%">
 </div>
 
 ## Instalação
