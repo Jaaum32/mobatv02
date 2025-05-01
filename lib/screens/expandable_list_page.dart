@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
-import '../widgets/expandable_product_item.dart';
+import '../widgets/expandable_product_item.dart'; // Importa o widget que representa os itens expansíveis de produto
 
 /// Tela principal que exibe a lista de produtos expansíveis
 class ExpandableListPage extends StatelessWidget {
   const ExpandableListPage({super.key});
 
   // Lista estática de produtos para demonstração
+  // Cada produto tem título, descrição e preço
   final List<Map<String, String>> products = const [
     {
       'title': 'Notebook Gamer',
@@ -27,17 +28,22 @@ class ExpandableListPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      // AppBar que exibe o título "Ofertas de Produtos"
       appBar: AppBar(title: const Text('Ofertas de Produtos')),
-      // ListView.builder para renderizar lista de forma eficiente
+
+      // ListView.builder: Renderiza a lista de produtos de forma eficiente
+      // Com o ListView.builder, apenas os itens visíveis na tela são renderizados, economizando memória
       body: ListView.builder(
-        padding: const EdgeInsets.all(16),
-        itemCount: products.length,
+        padding: const EdgeInsets.all(16), // Adiciona o espaçamento de 16 pixels ao redor da lista
+        itemCount: products.length, // O número de itens na lista será o tamanho da lista de produtos
         itemBuilder: (context, index) {
-          final product = products[index];
+          // Para cada índice da lista, cria-se um widget ExpandableProductItem
+          // 'ExpandableProductItem' é um widget que irá exibir os detalhes do produto e permitir expandir/recolher
+          final product = products[index]; // Obtém o produto com base no índice
           return ExpandableProductItem(
-            title: product['title']!,
-            description: product['description']!,
-            price: product['price']!,
+            title: product['title']!, // Passa o título do produto
+            description: product['description']!, // Passa a descrição do produto
+            price: product['price']!, // Passa o preço do produto
           );
         },
       ),
